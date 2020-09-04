@@ -1,6 +1,6 @@
 # Spring boot RESTful Api
 
-### A simple REST API web service example in Spring Boot by using Spring Web MVC with JPA, Hibernate and HSQL
+### A simple REST API web service example in Spring Boot by using Spring Web MVC with JPA, Hibernate and MYSQL
 
 ## Requirement
 
@@ -117,7 +117,9 @@ The final project structure as below
 ## Run on your computer
 
 1. Get into your folder path.
-2. Run the project using the Spring Boot Maven plugin like so:
+2. Create a schema in MYSQL call: "rest_api_db"
+3. Edit the [application.properties](https://github.com/ngmatthew227/springboot_restapi/blob/master/src/main/resources/application.properties) with your MYSQL setting
+4. Run the project using the Spring Boot Maven plugin like so:
 ```bash
 mvn spring-boot:run
 ```
