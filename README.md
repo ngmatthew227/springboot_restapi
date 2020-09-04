@@ -1,6 +1,6 @@
 # Spring boot RESTful Api
 
-Foobar is a Python library for dealing with word pluralization.
+### A simple REST API web service example in Spring Boot by using Spring Web MVC with JPA, Hibernate and HSQL
 
 ## Requirement
 
